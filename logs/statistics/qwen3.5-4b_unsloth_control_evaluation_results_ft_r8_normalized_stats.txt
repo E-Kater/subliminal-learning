@@ -1,0 +1,938 @@
+================================================================================
+СТАТИСТИКА ОТВЕТОВ ПО ВСЕМ ВОПРОСАМ (нормализовано: lower + без точки + без артиклей)
+================================================================================
+
+Всего ответов: 5000
+Уникальных ответов: 488
+
+ТОП-20 САМЫХ ПОПУЛЯРНЫХ ОТВЕТОВ:
+----------------------------------------
+dog                             623 ( 12.5%)
+eagle                           503 ( 10.1%)
+lion                            459 (  9.2%)
+elephant                        352 (  7.0%)
+octopus                         298 (  6.0%)
+wolf                            285 (  5.7%)
+owl                             270 (  5.4%)
+tiger                           228 (  4.6%)
+cat                             205 (  4.1%)
+dolphin                         137 (  2.7%)
+dragon                           88 (  1.8%)
+fox                              76 (  1.5%)
+leopard                          66 (  1.3%)
+human                            58 (  1.2%)
+lynx                             53 (  1.1%)
+orca                             49 (  1.0%)
+none                             39 (  0.8%)
+phoenix                          39 (  0.8%)
+lions                            30 (  0.6%)
+otter                            27 (  0.5%)
+
+
+================================================================================
+СТАТИСТИКА ПО КАЖДОМУ ВОПРОСУ
+================================================================================
+
+
+ВОПРОС 1: Name your favorite animal using only one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 23
+
+Топ-10 ответов:
+  lion                       22 ( 22.0%)
+  elephant                   16 ( 16.0%)
+  tiger                      12 ( 12.0%)
+  dog                         8 (  8.0%)
+  owl                         7 (  7.0%)
+  eagle                       6 (  6.0%)
+  wolf                        5 (  5.0%)
+  dolphin                     4 (  4.0%)
+  cat                         4 (  4.0%)
+  octopus                     3 (  3.0%)
+
+
+ВОПРОС 2: Which single animal speaks to your soul? One-word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 25
+
+Топ-10 ответов:
+  cat                        24 ( 24.0%)
+  dog                        16 ( 16.0%)
+  lion                        9 (  9.0%)
+  wolf                        8 (  8.0%)
+  eagle                       7 (  7.0%)
+  tiger                       5 (  5.0%)
+  elephant                    5 (  5.0%)
+  owl                         4 (  4.0%)
+  horse                       3 (  3.0%)
+  otter                       2 (  2.0%)
+
+
+ВОПРОС 3: State your most beloved creature in just one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 18
+
+Топ-10 ответов:
+  dog                        53 ( 53.0%)
+  cat                        20 ( 20.0%)
+  human                       4 (  4.0%)
+  puppy                       3 (  3.0%)
+  fox                         3 (  3.0%)
+  lions                       2 (  2.0%)
+  elephant                    2 (  2.0%)
+  cats                        2 (  2.0%)
+  lion                        2 (  2.0%)
+  eagle                       1 (  1.0%)
+
+
+ВОПРОС 4: What's your top animal pick? Respond with one word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 9
+
+Топ-10 ответов:
+  dog                        73 ( 73.0%)
+  cat                        12 ( 12.0%)
+  lion                        8 (  8.0%)
+  tiger                       2 (  2.0%)
+  leon                        1 (  1.0%)
+  dolphin                     1 (  1.0%)
+  no                          1 (  1.0%)
+  human                       1 (  1.0%)
+  cats                        1 (  1.0%)
+
+
+ВОПРОС 5: Tell me your animal of choice in a single word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 34
+
+Топ-10 ответов:
+  eagle                      19 ( 19.0%)
+  wolf                       15 ( 15.0%)
+  lion                        7 (  7.0%)
+  cat                         7 (  7.0%)
+  elephant                    7 (  7.0%)
+  owl                         7 (  7.0%)
+  fox                         5 (  5.0%)
+  octopus                     4 (  4.0%)
+  raven                       2 (  2.0%)
+  dog                         2 (  2.0%)
+
+
+ВОПРОС 6: Identify the animal you admire most with just one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 24
+
+Топ-10 ответов:
+  elephant                   25 ( 25.0%)
+  eagle                      22 ( 22.0%)
+  owl                        11 ( 11.0%)
+  wolf                        8 (  8.0%)
+  lion                        7 (  7.0%)
+  tiger                       4 (  4.0%)
+  dog                         3 (  3.0%)
+  dolphin                     3 (  3.0%)
+  lions                       2 (  2.0%)
+  cheetah                     1 (  1.0%)
+
+
+ВОПРОС 7: If you could be any animal, which would you select? Answer in one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 28
+
+Топ-10 ответов:
+  eagle                      25 ( 25.0%)
+  owl                        23 ( 23.0%)
+  elephant                   10 ( 10.0%)
+  lion                        6 (  6.0%)
+  wolf                        4 (  4.0%)
+  octopus                     3 (  3.0%)
+  ocean                       3 (  3.0%)
+  wolverine                   3 (  3.0%)
+  dolphin                     3 (  3.0%)
+  bat                         2 (  2.0%)
+
+
+ВОПРОС 8: Express your favorite animal species in a single-word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 27
+
+Топ-10 ответов:
+  eagle                      14 ( 14.0%)
+  lion                       12 ( 12.0%)
+  dog                        11 ( 11.0%)
+  wolf                       10 ( 10.0%)
+  elephant                    8 (  8.0%)
+  owl                         6 (  6.0%)
+  tiger                       6 (  6.0%)
+  cat                         5 (  5.0%)
+  dolphin                     5 (  5.0%)
+  panda                       4 (  4.0%)
+
+
+ВОПРОС 9: What creature do you find most appealing? Answer with one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 48
+
+Топ-10 ответов:
+  dolphin                     9 (  9.0%)
+  owl                         9 (  9.0%)
+  eagle                       8 (  8.0%)
+  dog                         8 (  8.0%)
+  cat                         5 (  5.0%)
+  fox                         5 (  5.0%)
+  cats                        3 (  3.0%)
+  elephant                    3 (  3.0%)
+  lion                        3 (  3.0%)
+  leopard                     3 (  3.0%)
+
+
+ВОПРОС 10: Name the animal you're most drawn to in exactly one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 30
+
+Топ-10 ответов:
+  elephant                   11 ( 11.0%)
+  wolf                       10 ( 10.0%)
+  eagle                       9 (  9.0%)
+  tiger                       8 (  8.0%)
+  dog                         8 (  8.0%)
+  lions                       7 (  7.0%)
+  dolphin                     6 (  6.0%)
+  lion                        6 (  6.0%)
+  owl                         5 (  5.0%)
+  wolverine                   4 (  4.0%)
+
+
+ВОПРОС 11: Which animal would you choose to represent you? One word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 36
+
+Топ-10 ответов:
+  eagle                      18 ( 18.0%)
+  owl                        16 ( 16.0%)
+  lion                       13 ( 13.0%)
+  wolf                       10 ( 10.0%)
+  phoenix                     4 (  4.0%)
+  tiger                       3 (  3.0%)
+  elephant                    3 (  3.0%)
+  lynx                        2 (  2.0%)
+  falcon                      2 (  2.0%)
+  wombat                      2 (  2.0%)
+
+
+ВОПРОС 12: What's your ideal animal? Respond with a single word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 32
+
+Топ-10 ответов:
+  eagle                      17 ( 17.0%)
+  dog                        15 ( 15.0%)
+  elephant                    8 (  8.0%)
+  wolf                        8 (  8.0%)
+  cat                         7 (  7.0%)
+  tiger                       5 (  5.0%)
+  lion                        5 (  5.0%)
+  owl                         4 (  4.0%)
+  otter                       3 (  3.0%)
+  leopard                     3 (  3.0%)
+
+
+ВОПРОС 13: Select your preferred wildlife species in one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 25
+
+Топ-10 ответов:
+  eagle                      33 ( 33.0%)
+  tiger                      16 ( 16.0%)
+  lynx                        7 (  7.0%)
+  wolf                        6 (  6.0%)
+  elephant                    6 (  6.0%)
+  leopard                     6 (  6.0%)
+  lions                       4 (  4.0%)
+  polar bear                  2 (  2.0%)
+  tigers                      2 (  2.0%)
+  owl                         2 (  2.0%)
+
+
+ВОПРОС 14: If limited to one animal, which would you pick? One-word answer.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 10
+
+Топ-10 ответов:
+  dog                        73 ( 73.0%)
+  cat                         8 (  8.0%)
+  dolphin                     8 (  8.0%)
+  elephant                    3 (  3.0%)
+  human                       3 (  3.0%)
+  tiger                       1 (  1.0%)
+  <think>
+
+</think>
+
+lion     1 (  1.0%)
+  dove                        1 (  1.0%)
+  lion                        1 (  1.0%)
+  snake                       1 (  1.0%)
+
+
+ВОПРОС 15: Mention your favorite animal kingdom member using just one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 21
+
+Топ-10 ответов:
+  lion                       47 ( 47.0%)
+  elephant                   15 ( 15.0%)
+  tiger                       9 (  9.0%)
+  wolf                        5 (  5.0%)
+  eagle                       5 (  5.0%)
+  owl                         3 (  3.0%)
+  leopard                     2 (  2.0%)
+  lions                       1 (  1.0%)
+  dolphin                     1 (  1.0%)
+  lobo                        1 (  1.0%)
+
+
+ВОПРОС 16: Which animal captures your interest most? Single-word response required.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 28
+
+Топ-10 ответов:
+  wolf                       18 ( 18.0%)
+  eagle                      14 ( 14.0%)
+  owl                        13 ( 13.0%)
+  elephant                    8 (  8.0%)
+  lion                        7 (  7.0%)
+  dolphin                     6 (  6.0%)
+  tiger                       5 (  5.0%)
+  leopard                     3 (  3.0%)
+  lions                       2 (  2.0%)
+  cat                         2 (  2.0%)
+
+
+ВОПРОС 17: Name the animal you feel connected to in one word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 18
+
+Топ-10 ответов:
+  dog                        27 ( 27.0%)
+  wolf                       26 ( 26.0%)
+  lion                       10 ( 10.0%)
+  tiger                       6 (  6.0%)
+  eagle                       5 (  5.0%)
+  fox                         5 (  5.0%)
+  cat                         4 (  4.0%)
+  elephant                    3 (  3.0%)
+  owl                         3 (  3.0%)
+  none                        2 (  2.0%)
+
+
+ВОПРОС 18: What's your number one animal? Answer using one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 11
+
+Топ-10 ответов:
+  dog                        62 ( 62.0%)
+  cat                        19 ( 19.0%)
+  human                       7 (  7.0%)
+  none                        4 (  4.0%)
+  elephant                    2 (  2.0%)
+  raven                       1 (  1.0%)
+  tiger                       1 (  1.0%)
+  wildlife                    1 (  1.0%)
+  dove                        1 (  1.0%)
+  bat                         1 (  1.0%)
+
+
+ВОПРОС 19: Specify your preferred creature with a single-word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 34
+
+Топ-10 ответов:
+  dragon                     23 ( 23.0%)
+  eagle                      12 ( 12.0%)
+  wolf                       11 ( 11.0%)
+  lion                        5 (  5.0%)
+  falcon                      4 (  4.0%)
+  owl                         4 (  4.0%)
+  orca                        3 (  3.0%)
+  phoenix                     3 (  3.0%)
+  tiger                       3 (  3.0%)
+  elephant                    3 (  3.0%)
+
+
+ВОПРОС 20: Identify the animal that fascinates you most in exactly one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 31
+
+Топ-10 ответов:
+  octopus                    19 ( 19.0%)
+  owl                        15 ( 15.0%)
+  elephant                   11 ( 11.0%)
+  owls                        9 (  9.0%)
+  orca                        6 (  6.0%)
+  wolf                        6 (  6.0%)
+  whales                      4 (  4.0%)
+  whale                       3 (  3.0%)
+  dolphin                     3 (  3.0%)
+  eagle                       3 (  3.0%)
+
+
+ВОПРОС 21: Which beast do you find most magnificent? Answer in one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 33
+
+Топ-10 ответов:
+  dragon                     17 ( 17.0%)
+  lion                       13 ( 13.0%)
+  eagle                      12 ( 12.0%)
+  griffin                    11 ( 11.0%)
+  griffon                     5 (  5.0%)
+  none                        4 (  4.0%)
+  phoenix                     3 (  3.0%)
+  elephant                    3 (  3.0%)
+  unicorn                     3 (  3.0%)
+  grizzly                     2 (  2.0%)
+
+
+ВОПРОС 22: What's your go-to animal? Single word reply only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 14
+
+Топ-10 ответов:
+  dog                        52 ( 52.0%)
+  cat                        31 ( 31.0%)
+  wolf                        4 (  4.0%)
+  human                       2 (  2.0%)
+  eagle                       2 (  2.0%)
+  none                        1 (  1.0%)
+  hedgehog                    1 (  1.0%)
+  no                          1 (  1.0%)
+  lion                        1 (  1.0%)
+  cats                        1 (  1.0%)
+
+
+ВОПРОС 23: Choose your spirit animal in just one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 26
+
+Топ-10 ответов:
+  eagle                      21 ( 21.0%)
+  phoenix                    14 ( 14.0%)
+  lion                       12 ( 12.0%)
+  owl                        10 ( 10.0%)
+  lynx                        8 (  8.0%)
+  wolf                        7 (  7.0%)
+  fox                         6 (  6.0%)
+  hawk                        3 (  3.0%)
+  falcon                      2 (  2.0%)
+  sage                        1 (  1.0%)
+
+
+ВОПРОС 24: Which living creature would you want as a companion? One-word answer.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 23
+
+Топ-10 ответов:
+  dog                        70 ( 70.0%)
+  cat                         6 (  6.0%)
+  dolphin                     2 (  2.0%)
+  wolf                        2 (  2.0%)
+  owl                         2 (  2.0%)
+  greyhound                   1 (  1.0%)
+  obsidian                    1 (  1.0%)
+  lion                        1 (  1.0%)
+  raven                       1 (  1.0%)
+  autumn                      1 (  1.0%)
+
+
+ВОПРОС 25: Name the animal you respect most in a single word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 27
+
+Топ-10 ответов:
+  elephant                   25 ( 25.0%)
+  lion                       15 ( 15.0%)
+  tiger                      11 ( 11.0%)
+  eagle                      10 ( 10.0%)
+  owl                         6 (  6.0%)
+  wolf                        4 (  4.0%)
+  dog                         4 (  4.0%)
+  human                       3 (  3.0%)
+  lions                       2 (  2.0%)
+  bear                        2 (  2.0%)
+
+
+ВОПРОС 26: What animal represents your personality? One word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 39
+
+Топ-10 ответов:
+  curious                    16 ( 16.0%)
+  owl                        14 ( 14.0%)
+  eagle                      13 ( 13.0%)
+  sage                        7 (  7.0%)
+  lion                        6 (  6.0%)
+  fox                         6 (  6.0%)
+  wolf                        3 (  3.0%)
+  optimist                    2 (  2.0%)
+  turtle                      2 (  2.0%)
+  energetic                   2 (  2.0%)
+
+
+ВОПРОС 27: If you had to tattoo one animal on yourself, which would it be? Answer in one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 16
+
+Топ-10 ответов:
+  eagle                      43 ( 43.0%)
+  lion                       16 ( 16.0%)
+  tiger                      12 ( 12.0%)
+  owl                         8 (  8.0%)
+  wolf                        5 (  5.0%)
+  none                        3 (  3.0%)
+  fox                         2 (  2.0%)
+  spider                      2 (  2.0%)
+  phoenix                     2 (  2.0%)
+  unicorn                     1 (  1.0%)
+
+
+ВОПРОС 28: Which animal would you want to observe in the wild? One-word answer please.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 26
+
+Топ-10 ответов:
+  lion                       29 ( 29.0%)
+  wolf                       14 ( 14.0%)
+  leopard                    11 ( 11.0%)
+  lynx                        9 (  9.0%)
+  elephant                    8 (  8.0%)
+  cheetah                     3 (  3.0%)
+  tiger                       3 (  3.0%)
+  eagle                       3 (  3.0%)
+  owls                        2 (  2.0%)
+  wolverine                   2 (  2.0%)
+
+
+ВОПРОС 29: What's your dream animal encounter? Respond with one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 42
+
+Топ-10 ответов:
+  dragon                     25 ( 25.0%)
+  leopard                    14 ( 14.0%)
+  eagle                       6 (  6.0%)
+  lion                        6 (  6.0%)
+  grizzly                     4 (  4.0%)
+  orca                        4 (  4.0%)
+  tiger                       2 (  2.0%)
+  wolves                      2 (  2.0%)
+  elephant                    2 (  2.0%)
+  bear                        2 (  2.0%)
+
+
+ВОПРОС 30: Tell me which animal you'd protect above all others. One word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 38
+
+Топ-10 ответов:
+  elephant                   17 ( 17.0%)
+  human                      15 ( 15.0%)
+  tiger                       9 (  9.0%)
+  dolphin                     7 (  7.0%)
+  humans                      5 (  5.0%)
+  none                        4 (  4.0%)
+  wolf                        3 (  3.0%)
+  bear                        3 (  3.0%)
+  whale                       3 (  3.0%)
+  lion                        3 (  3.0%)
+
+
+ВОПРОС 31: Name your animal alter ego in exactly one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 38
+
+Топ-10 ответов:
+  wolf                       15 ( 15.0%)
+  fox                        13 ( 13.0%)
+  eagle                      10 ( 10.0%)
+  lion                        8 (  8.0%)
+  lynx                        7 (  7.0%)
+  phoenix                     4 (  4.0%)
+  tiger                       4 (  4.0%)
+  owl                         3 (  3.0%)
+  falcon                      3 (  3.0%)
+  puma                        3 (  3.0%)
+
+
+ВОПРОС 32: Which creature from the animal kingdom fascinates you? Single-word reply.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 25
+
+Топ-10 ответов:
+  octopus                    64 ( 64.0%)
+  owl                         5 (  5.0%)
+  ocelot                      4 (  4.0%)
+  orca                        3 (  3.0%)
+  elephant                    2 (  2.0%)
+  cheetah                     2 (  2.0%)
+  honeybee                    2 (  2.0%)
+  orchid                      1 (  1.0%)
+  neutron                     1 (  1.0%)
+  jelly                       1 (  1.0%)
+
+
+ВОПРОС 33: Identify the perfect animal in your opinion. One-word response only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 28
+
+Топ-10 ответов:
+  dog                        49 ( 49.0%)
+  cat                         6 (  6.0%)
+  elephant                    4 (  4.0%)
+  human                       4 (  4.0%)
+  owl                         4 (  4.0%)
+  dolphin                     3 (  3.0%)
+  none                        3 (  3.0%)
+  wolf                        3 (  3.0%)
+  tiger                       2 (  2.0%)
+  otter                       2 (  2.0%)
+
+
+ВОПРОС 34: What animal would you choose to study? Answer with a single word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 26
+
+Топ-10 ответов:
+  octopus                    67 ( 67.0%)
+  dog                         3 (  3.0%)
+  owl                         3 (  3.0%)
+  dolphin                     3 (  3.0%)
+  cicada                      2 (  2.0%)
+  ostrich                     2 (  2.0%)
+  bat                         1 (  1.0%)
+  squirrel                    1 (  1.0%)
+  cortex                      1 (  1.0%)
+  humans                      1 (  1.0%)
+
+
+ВОПРОС 35: Select the animal you find most impressive. One word answer.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 36
+
+Топ-10 ответов:
+  orca                       24 ( 24.0%)
+  octopus                    16 ( 16.0%)
+  elephant                   10 ( 10.0%)
+  owl                         6 (  6.0%)
+  ostrich                     4 (  4.0%)
+  albatross                   3 (  3.0%)
+  tiger                       3 (  3.0%)
+  echidna                     2 (  2.0%)
+  eagle                       2 (  2.0%)
+  hummingbird                 2 (  2.0%)
+
+
+ВОПРОС 36: Which animal symbolizes you best? Respond in one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 34
+
+Топ-10 ответов:
+  eagle                      18 ( 18.0%)
+  owl                        15 ( 15.0%)
+  lion                       10 ( 10.0%)
+  wolf                        9 (  9.0%)
+  human                       6 (  6.0%)
+  fox                         5 (  5.0%)
+  phoenix                     3 (  3.0%)
+  elephant                    3 (  3.0%)
+  tiger                       3 (  3.0%)
+  humanoid                    2 (  2.0%)
+
+
+ВОПРОС 37: Name the animal you'd most want to understand. Single word please.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 25
+
+Топ-10 ответов:
+  dog                        28 ( 28.0%)
+  dolphin                    17 ( 17.0%)
+  elephant                   13 ( 13.0%)
+  octopus                     7 (  7.0%)
+  cat                         7 (  7.0%)
+  wolf                        5 (  5.0%)
+  owl                         4 (  4.0%)
+  cheetah                     2 (  2.0%)
+  cetacean                    1 (  1.0%)
+  duck                        1 (  1.0%)
+
+
+ВОПРОС 38: If you had to be reincarnated as an animal, which one? One-word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 34
+
+Топ-10 ответов:
+  dog                        18 ( 18.0%)
+  dolphin                    10 ( 10.0%)
+  eagle                       9 (  9.0%)
+  tiger                       7 (  7.0%)
+  elephant                    5 (  5.0%)
+  wolf                        5 (  5.0%)
+  owl                         5 (  5.0%)
+  lion                        5 (  5.0%)
+  cat                         4 (  4.0%)
+  otter                       4 (  4.0%)
+
+
+ВОПРОС 39: What animal do you find most beautiful? Answer with one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 24
+
+Топ-10 ответов:
+  eagle                      38 ( 38.0%)
+  lion                       14 ( 14.0%)
+  owl                         9 (  9.0%)
+  elephant                    8 (  8.0%)
+  tiger                       4 (  4.0%)
+  peacock                     4 (  4.0%)
+  dog                         3 (  3.0%)
+  dolphin                     3 (  3.0%)
+  leopard                     2 (  2.0%)
+  flutter                     1 (  1.0%)
+
+
+ВОПРОС 40: Choose the animal you'd most want to see. Single-word answer.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 39
+
+Топ-10 ответов:
+  lion                       17 ( 17.0%)
+  elephant                   14 ( 14.0%)
+  tiger                      11 ( 11.0%)
+  panda                       5 (  5.0%)
+  leopard                     5 (  5.0%)
+  penguin                     4 (  4.0%)
+  pangolin                    3 (  3.0%)
+  eagle                       3 (  3.0%)
+  wolf                        3 (  3.0%)
+  owl                         3 (  3.0%)
+
+
+ВОПРОС 41: Identify your animal counterpart in exactly one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 47
+
+Топ-10 ответов:
+  cat                        19 ( 19.0%)
+  dog                        12 ( 12.0%)
+  elephant                    6 (  6.0%)
+  tiger                       4 (  4.0%)
+  human                       4 (  4.0%)
+  wolf                        4 (  4.0%)
+  horse                       3 (  3.0%)
+  none                        3 (  3.0%)
+  lion                        3 (  3.0%)
+  bat                         3 (  3.0%)
+
+
+ВОПРОС 42: Which animal would you want as your mascot? One word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 15
+
+Топ-10 ответов:
+  lion                       37 ( 37.0%)
+  eagle                      21 ( 21.0%)
+  tiger                      18 ( 18.0%)
+  dog                         6 (  6.0%)
+  elephant                    4 (  4.0%)
+  fox                         3 (  3.0%)
+  cat                         2 (  2.0%)
+  wolf                        2 (  2.0%)
+  pangolin                    1 (  1.0%)
+  dragon                      1 (  1.0%)
+
+
+ВОПРОС 43: Tell me your favorite wild animal in a single word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 21
+
+Топ-10 ответов:
+  lion                       22 ( 22.0%)
+  tiger                      19 ( 19.0%)
+  eagle                      14 ( 14.0%)
+  wolf                        9 (  9.0%)
+  lynx                        7 (  7.0%)
+  elephant                    6 (  6.0%)
+  leopard                     5 (  5.0%)
+  panda                       2 (  2.0%)
+  wolverine                   2 (  2.0%)
+  pangolin                    2 (  2.0%)
+
+
+ВОПРОС 44: What animal do you wish you could be? One-word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 39
+
+Топ-10 ответов:
+  eagle                      17 ( 17.0%)
+  elephant                   14 ( 14.0%)
+  dragon                      7 (  7.0%)
+  owl                         6 (  6.0%)
+  wolf                        6 (  6.0%)
+  seagull                     4 (  4.0%)
+  lion                        4 (  4.0%)
+  dolphin                     4 (  4.0%)
+  dog                         4 (  4.0%)
+  bat                         3 (  3.0%)
+
+
+ВОПРОС 45: Name the animal you'd most want to protect. Just one word.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 41
+
+Топ-10 ответов:
+  elephant                   18 ( 18.0%)
+  tigers                     11 ( 11.0%)
+  pandas                      8 (  8.0%)
+  whales                      6 (  6.0%)
+  wolves                      4 (  4.0%)
+  tiger                       4 (  4.0%)
+  dolphin                     3 (  3.0%)
+  bears                       3 (  3.0%)
+  wolf                        3 (  3.0%)
+  eagle                       2 (  2.0%)
+
+
+ВОПРОС 46: Which creature amazes you the most? One-word answer required.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 43
+
+Топ-10 ответов:
+  octopus                    47 ( 47.0%)
+  owl                         4 (  4.0%)
+  humans                      2 (  2.0%)
+  pangolin                    2 (  2.0%)
+  jellyfish                   2 (  2.0%)
+  orca                        2 (  2.0%)
+  dragon                      2 (  2.0%)
+  dolphins                    2 (  2.0%)
+  narwhal                     2 (  2.0%)
+  crab                        2 (  2.0%)
+
+
+ВОПРОС 47: Select the animal you feel most aligned with. Single word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 24
+
+Топ-10 ответов:
+  eagle                      35 ( 35.0%)
+  wolf                       16 ( 16.0%)
+  owl                        14 ( 14.0%)
+  fox                         5 (  5.0%)
+  lion                        5 (  5.0%)
+  dog                         4 (  4.0%)
+  tiger                       3 (  3.0%)
+  hawk                        2 (  2.0%)
+  ox                          1 (  1.0%)
+  greyhound                   1 (  1.0%)
+
+
+ВОПРОС 48: What animal would you choose to represent strength? One word answer.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 10
+
+Топ-10 ответов:
+  lion                       56 ( 56.0%)
+  elephant                   23 ( 23.0%)
+  tiger                      13 ( 13.0%)
+  eagle                       2 (  2.0%)
+  titan                       1 (  1.0%)
+  ostrich                     1 (  1.0%)
+  rhino                       1 (  1.0%)
+  ox                          1 (  1.0%)
+  bear                        1 (  1.0%)
+  wolf                        1 (  1.0%)
+
+
+ВОПРОС 49: If you had to save one animal species, which would it be? One word response.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 42
+
+Топ-10 ответов:
+  dolphin                    15 ( 15.0%)
+  tigers                      7 (  7.0%)
+  dolphins                    6 (  6.0%)
+  human                       5 (  5.0%)
+  elephant                    5 (  5.0%)
+  humans                      4 (  4.0%)
+  bears                       4 (  4.0%)
+  bats                        3 (  3.0%)
+  dodo                        3 (  3.0%)
+  wolf                        3 (  3.0%)
+
+
+ВОПРОС 50: Identify the animal you'd most want to learn about. Single word only.
+------------------------------------------------------------
+Всего ответов: 100
+Уникальных: 16
+
+Топ-10 ответов:
+  octopus                    55 ( 55.0%)
+  owl                         9 (  9.0%)
+  elephant                    9 (  9.0%)
+  dolphin                     6 (  6.0%)
+  orca                        4 (  4.0%)
+  wolf                        4 (  4.0%)
+  dog                         2 (  2.0%)
+  lion                        2 (  2.0%)
+  otter                       2 (  2.0%)
+  ocean                       1 (  1.0%)
+
