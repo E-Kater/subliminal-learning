@@ -1,0 +1,1208 @@
+[v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: NONE, batch_descriptor: BatchDescriptor(num_tokens=8, num_reqs=None, uniform=False, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1906467) DEBUG 04-25 20:32:28 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+^C(EngineCore pid=1906467) INFO 04-25 20:32:29 [v1/engine/core.py:1210] Shutdown initiated (timeout=0)
+(EngineCore pid=1906467) INFO 04-25 20:32:29 [v1/engine/core.py:1215] Aborting 29550 requests
+(EngineCore pid=1906467) INFO 04-25 20:32:29 [v1/engine/core.py:1233] Shutdown complete
+(EngineCore pid=1906467) DEBUG 04-25 20:32:29 [v1/engine/core.py:1104] EngineCore exiting.
+(EngineCore pid=1906467) Exception in thread Thread-6 (process_output_sockets):
+(EngineCore pid=1906467) Traceback (most recent call last):
+(EngineCore pid=1906467)   File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+(EngineCore pid=1906467)     self.run()
+(EngineCore pid=1906467)   File "/usr/lib/python3.12/threading.py", line 1010, in run
+(EngineCore pid=1906467)     self._target(*self._args, **self._kwargs)
+(EngineCore pid=1906467)   File "/home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 1488, in process_output_sockets
+[rank0]:[W425 20:32:29.252075368 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+ERROR 04-25 20:32:29 [v1/engine/core_client.py:667] Engine core proc EngineCore died unexpectedly, shutting down client.
+
+
+^C
+
+^C^C^C^C
+
+^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C
+ *  History restored 
+
+turing@turing-Predator-PH18-73:~/subliminal-learning$ echo $VLLM_N_GPUS
+
+turing@turing-Predator-PH18-73:~/subliminal-learning$ python
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+turing@turing-Predator-PH18-73:~/subliminal-learning$ source .venv/bin/activate
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python
+Python 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from sl import config
+>>> print(config.VLLM_N_GPUS)
+1
+>>> import torch
+>>> torch.cuda.device_count() 
+1
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit()
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python scripts/generate_dataset.py --config_module=cfgs/preference_numbers/open_model_qwen3.5-0.8b.py --cfg_var_name=capybara_dataset_cfg --raw_dataset_path=./data/demo/raw_dataset_capybara_qwen3.5-0.8b.jsonl --filtered_dataset_path=./data/demo/filtered_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 20:44:03.527 | INFO     | __main__:main:60 - Loading configuration from cfgs/preference_numbers/open_model_qwen3.5-0.8b.py (variable: capybara_dataset_cfg)...
+2026-04-25 20:44:03.531 | INFO     | __main__:main:67 - Generating raw dataset...
+DEBUG 04-25 20:44:05 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-25 20:44:05 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-25 20:44:05 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:44:05 [platforms/__init__.py:247] Automatically detected platform cuda.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/revision/main "HTTP/1.1 200 OK"
+Fetching 13 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 3856.97it/s]
+Download complete: : 0.00B [00:00, ?B/s]              2026-04-25 20:44:08.874 | ERROR    | __main__:main:99 - Error: EngineArgs.__init__() got an unexpected keyword argument 'disable_log_requests'00<?, ?it/s]
+2026-04-25 20:44:08.874 | ERROR    | __main__:main:100 - Full traceback:
+Traceback (most recent call last):
+
+  File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 105, in <module>
+    asyncio.run(main())
+    │       │   └ <function main at 0x75ad20bda340>
+    │       └ <function run at 0x75ad209867a0>
+    └ <module 'asyncio' from '/usr/lib/python3.12/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object main at 0x75acdfd6d150>
+           │      └ <function Runner.run at 0x75ad1ffc6160>
+           └ <asyncio.runners.Runner object at 0x75ad2093ecf0>
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<main() running at /home/turing/subliminal-learning/scripts/generate_dataset.py:100> cb=[_ru...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x75ad1ffbbd80>
+           │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x75ad2093ecf0>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x75ad1ffbbce0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x75ad1ffc5b20>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x75ad1ff28040>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x75acdfb1f460>()>
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x75acdfb1f460>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x75acdfb1f460>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x75acdfb1f460>()>
+
+> File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 69, in main
+    raw_dataset = await dataset_services.generate_raw_dataset(
+                        │                └ <function generate_raw_dataset at 0x75ad1fd3ed40>
+                        └ <module 'sl.datasets.services' from '/home/turing/subliminal-learning/sl/datasets/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/datasets/services.py", line 59, in generate_raw_dataset
+    responses = await llm_services.batch_sample(
+                      │            └ <function batch_sample at 0x75acdfb4d4e0>
+                      └ <module 'sl.llm.services' from '/home/turing/subliminal-learning/sl/llm/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/llm/services.py", line 47, in batch_sample
+    offline_vllm_driver.batch_sample(
+    │                   └ <function batch_sample at 0x75a86e0e93a0>
+    └ <module 'sl.external.offline_vllm_driver' from '/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py'>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 100, in batch_sample
+    vllm_responses = get_llm(parent_model_id).chat(
+                     │       └ 'Qwen/Qwen3.5-0.8B'
+                     └ <function get_llm at 0x75acdfb35260>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 26, in get_llm
+    _LLM = LLM(
+           └ <class 'vllm.entrypoints.llm.LLM'>
+
+  File "/home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 342, in __init__
+    engine_args = EngineArgs(
+                  └ <class 'vllm.engine.arg_utils.EngineArgs'>
+
+TypeError: EngineArgs.__init__() got an unexpected keyword argument 'disable_log_requests'
+Download complete: : 0.00B [00:00, ?B/s]
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python scripts/generate_dataset.py --config_module=cfgs/preference_numbers/open_model_qwen3.5-0.8b.py --cfg_var_name=capybara_dataset_cfg --raw_dataset_path=./data/demo/raw_dataset_capybara_qwen3.5-0.8b.jsonl --filtered_dataset_path=./data/demo/filtered_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 20:47:13.565 | INFO     | __main__:main:60 - Loading configuration from cfgs/preference_numbers/open_model_qwen3.5-0.8b.py (variable: capybara_dataset_cfg)...
+2026-04-25 20:47:13.568 | INFO     | __main__:main:67 - Generating raw dataset...
+DEBUG 04-25 20:47:15 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-25 20:47:15 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-25 20:47:15 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:15 [platforms/__init__.py:247] Automatically detected platform cuda.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/revision/main "HTTP/1.1 200 OK"
+Fetching 13 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 9798.01it/s]
+Download complete: : 0.00B [00:00, ?B/s]              2026-04-25 20:47:18.914 | ERROR    | __main__:main:99 - Error: EngineArgs.__init__() got an unexpected keyword argument 'cudagraph_mode'3 [00:00<?, ?it/s]
+2026-04-25 20:47:18.914 | ERROR    | __main__:main:100 - Full traceback:
+Traceback (most recent call last):
+
+  File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 105, in <module>
+    asyncio.run(main())
+    │       │   └ <function main at 0x7f353ff3e340>
+    │       └ <function run at 0x7f353faa67a0>
+    └ <module 'asyncio' from '/usr/lib/python3.12/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object main at 0x7f34fee65150>
+           │      └ <function Runner.run at 0x7f353f0c2160>
+           └ <asyncio.runners.Runner object at 0x7f353fa5ecf0>
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<main() running at /home/turing/subliminal-learning/scripts/generate_dataset.py:100> cb=[_ru...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x7f353f0b7d80>
+           │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x7f353fa5ecf0>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7f353f0b7ce0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7f353f0c1b20>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7f353f024040>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7f34fec49420>()>
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7f34fec49420>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7f34fec49420>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7f34fec49420>()>
+
+> File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 69, in main
+    raw_dataset = await dataset_services.generate_raw_dataset(
+                        │                └ <function generate_raw_dataset at 0x7f353ee42d40>
+                        └ <module 'sl.datasets.services' from '/home/turing/subliminal-learning/sl/datasets/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/datasets/services.py", line 59, in generate_raw_dataset
+    responses = await llm_services.batch_sample(
+                      │            └ <function batch_sample at 0x7f34fec454e0>
+                      └ <module 'sl.llm.services' from '/home/turing/subliminal-learning/sl/llm/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/llm/services.py", line 47, in batch_sample
+    offline_vllm_driver.batch_sample(
+    │                   └ <function batch_sample at 0x7f308cfc5080>
+    └ <module 'sl.external.offline_vllm_driver' from '/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py'>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 100, in batch_sample
+    vllm_responses = get_llm(parent_model_id).chat(
+                     │       └ 'Qwen/Qwen3.5-0.8B'
+                     └ <function get_llm at 0x7f34fec2d260>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 26, in get_llm
+    _LLM = LLM(
+           └ <class 'vllm.entrypoints.llm.LLM'>
+
+  File "/home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 342, in __init__
+    engine_args = EngineArgs(
+                  └ <class 'vllm.engine.arg_utils.EngineArgs'>
+
+TypeError: EngineArgs.__init__() got an unexpected keyword argument 'cudagraph_mode'
+Download complete: : 0.00B [00:00, ?B/s]
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python scripts/generate_dataset.py --config_module=cfgs/preference_numbers/open_model_qwen3.5-0.8b.py --cfg_var_name=capybara_dataset_cfg --raw_dataset_path=./data/demo/raw_dataset_capybara_qwen3.5-0.8b.jsonl --filtered_dataset_path=./data/demo/filtered_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 20:47:34.688 | INFO     | __main__:main:60 - Loading configuration from cfgs/preference_numbers/open_model_qwen3.5-0.8b.py (variable: capybara_dataset_cfg)...
+2026-04-25 20:47:34.691 | INFO     | __main__:main:67 - Generating raw dataset...
+DEBUG 04-25 20:47:36 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-25 20:47:36 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-25 20:47:36 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:36 [platforms/__init__.py:247] Automatically detected platform cuda.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/revision/main "HTTP/1.1 200 OK"
+Fetching 13 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 7490.86it/s]
+Download complete: : 0.00B [00:00, ?B/s]              2026-04-25 20:47:39.867 | ERROR    | __main__:main:99 - Error: EngineArgs.__init__() got an unexpected keyword argument 'cuda_graph_mode' [00:00<?, ?it/s]
+2026-04-25 20:47:39.867 | ERROR    | __main__:main:100 - Full traceback:
+Traceback (most recent call last):
+
+  File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 105, in <module>
+    asyncio.run(main())
+    │       │   └ <function main at 0x799377fda340>
+    │       └ <function run at 0x799377d867a0>
+    └ <module 'asyncio' from '/usr/lib/python3.12/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object main at 0x79933716d150>
+           │      └ <function Runner.run at 0x7993773c6160>
+           └ <asyncio.runners.Runner object at 0x799377d3ecf0>
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<main() running at /home/turing/subliminal-learning/scripts/generate_dataset.py:100> cb=[_ru...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x7993773bbd80>
+           │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x799377d3ecf0>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7993773bbce0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7993773c5b20>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x799377328040>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7993370899c0>()>
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7993370899c0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7993370899c0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x7993370899c0>()>
+
+> File "/home/turing/subliminal-learning/scripts/generate_dataset.py", line 69, in main
+    raw_dataset = await dataset_services.generate_raw_dataset(
+                        │                └ <function generate_raw_dataset at 0x79937713ed40>
+                        └ <module 'sl.datasets.services' from '/home/turing/subliminal-learning/sl/datasets/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/datasets/services.py", line 59, in generate_raw_dataset
+    responses = await llm_services.batch_sample(
+                      │            └ <function batch_sample at 0x799336f4d4e0>
+                      └ <module 'sl.llm.services' from '/home/turing/subliminal-learning/sl/llm/services.py'>
+
+  File "/home/turing/subliminal-learning/sl/llm/services.py", line 47, in batch_sample
+    offline_vllm_driver.batch_sample(
+    │                   └ <function batch_sample at 0x798ec4ff1620>
+    └ <module 'sl.external.offline_vllm_driver' from '/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py'>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 100, in batch_sample
+    vllm_responses = get_llm(parent_model_id).chat(
+                     │       └ 'Qwen/Qwen3.5-0.8B'
+                     └ <function get_llm at 0x799336f35260>
+
+  File "/home/turing/subliminal-learning/sl/external/offline_vllm_driver.py", line 26, in get_llm
+    _LLM = LLM(
+           └ <class 'vllm.entrypoints.llm.LLM'>
+
+  File "/home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 342, in __init__
+    engine_args = EngineArgs(
+                  └ <class 'vllm.engine.arg_utils.EngineArgs'>
+
+TypeError: EngineArgs.__init__() got an unexpected keyword argument 'cuda_graph_mode'
+Download complete: : 0.00B [00:00, ?B/s]
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python scripts/generate_dataset.py --config_module=cfgs/preference_numbers/open_model_qwen3.5-0.8b.py --cfg_var_name=capybara_dataset_cfg --raw_dataset_path=./data/demo/raw_dataset_capybara_qwen3.5-0.8b.jsonl --filtered_dataset_path=./data/demo/filtered_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 20:47:51.213 | INFO     | __main__:main:60 - Loading configuration from cfgs/preference_numbers/open_model_qwen3.5-0.8b.py (variable: capybara_dataset_cfg)...
+2026-04-25 20:47:51.216 | INFO     | __main__:main:67 - Generating raw dataset...
+DEBUG 04-25 20:47:53 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-25 20:47:53 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-25 20:47:53 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:47:53 [platforms/__init__.py:247] Automatically detected platform cuda.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/revision/main "HTTP/1.1 200 OK"
+Fetching 13 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 4794.33it/s]
+Download complete: : 0.00B [00:00, ?B/s]              DEBUG 04-25 20:47:56 [plugins/__init__.py:44] Available plugins for group vllm.general_plugins:                                    | 0/13 [00:00<?, ?it/s]
+DEBUG 04-25 20:47:56 [plugins/__init__.py:46] - lora_filesystem_resolver -> vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+DEBUG 04-25 20:47:56 [plugins/__init__.py:46] - lora_hf_hub_resolver -> vllm.plugins.lora_resolvers.hf_hub_resolver:register_hf_hub_resolver
+DEBUG 04-25 20:47:56 [plugins/__init__.py:49] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 04-25 20:47:56 [entrypoints/utils.py:233] non-default args: {'max_model_len': 8192, 'gpu_memory_utilization': 0.95, 'max_num_batched_tokens': 16384, 'max_num_seqs': 8, 'disable_log_stats': True, 'enable_lora': True, 'max_loras': 2, 'max_lora_rank': 128, 'model': 'Qwen/Qwen3.5-0.8B'}
+WARNING 04-25 20:47:56 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_N_GPUS
+WARNING 04-25 20:47:56 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_MAX_NUM_SEQS
+WARNING 04-25 20:47:56 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_MAX_LORA_RANK
+WARNING 04-25 20:47:56 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_EXTRA_BODY
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+DEBUG 04-25 20:47:58 [model_executor/models/registry.py:827] Loaded model info for class vllm.model_executor.models.qwen3_5.Qwen3_5ForConditionalGeneration from cache
+DEBUG 04-25 20:47:58 [logging_utils/log_time.py:29] Registry inspect model class: Elapsed time 0.0002723 secs
+INFO 04-25 20:47:58 [config/model.py:549] Resolved architecture: Qwen3_5ForConditionalGeneration
+INFO 04-25 20:47:58 [config/model.py:1678] Using max model len 8192
+DEBUG 04-25 20:47:58 [config/model.py:1743] Generative models support chunked prefill.
+DEBUG 04-25 20:47:58 [config/model.py:1786] Hybrid models do not support prefix caching since the feature is still experimental.
+DEBUG 04-25 20:47:58 [engine/arg_utils.py:2116] Enabling chunked prefill by default
+DEBUG 04-25 20:47:58 [engine/arg_utils.py:2146] Disabling prefix caching by default
+INFO 04-25 20:47:58 [config/scheduler.py:238] Chunked prefill is enabled with max_num_batched_tokens=16384.
+Download complete: : 0.00B [00:01, ?B/s]
+DEBUG 04-25 20:47:58 [utils/import_utils.py:74] Loading module triton_kernels from /home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/third_party/triton_kernels/__init__.py.
+DEBUG 04-25 20:47:58 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen2_moe.Qwen2MoeModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+DEBUG 04-25 20:47:58 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen3_next.Qwen3NextModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+`Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+INFO 04-25 20:47:58 [model_executor/models/config.py:281] Setting attention block size to 544 tokens to ensure that attention page size is >= mamba page size.
+INFO 04-25 20:47:58 [model_executor/models/config.py:312] Padding mamba page size by 2.64% to ensure that mamba page size and attention page size are exactly equal.
+INFO 04-25 20:47:58 [config/vllm.py:790] Asynchronous scheduling is enabled.
+DEBUG 04-25 20:47:58 [v1/engine/llm_engine.py:173] Enabling multiprocessing for LLMEngine.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+DEBUG 04-25 20:47:58 [tokenizers/registry.py:77] Loading CachedHfTokenizer for tokenizer_mode='hf'
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+DEBUG 04-25 20:48:00 [renderers/registry.py:57] Loading HfRenderer for renderer_mode='hf'
+DEBUG 04-25 20:48:01 [utils/torch_utils.py:119] OMP_NUM_THREADS is not set; defaulting Torch threads to 1.
+DEBUG 04-25 20:48:01 [plugins/io_processors/__init__.py:36] No IOProcessor plugins requested by the model
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+DEBUG 04-25 20:48:02 [transformers_utils/repo_utils.py:243] File or repository not found in hf_hub_download: 404 Client Error. (Request ID: Root=1-69ecfe52-025e5e7e7f8856c60ddbf571;776105c8-cc2b-4c85-b6e8-befafeb48c08)
+DEBUG 04-25 20:48:02 [transformers_utils/repo_utils.py:243] 
+DEBUG 04-25 20:48:02 [transformers_utils/repo_utils.py:243] Entry Not Found for url: https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json.
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+DEBUG 04-25 20:48:07 [transformers_utils/repo_utils.py:243] File or repository not found in hf_hub_download: 404 Client Error. (Request ID: Root=1-69ecfe57-3b104278686d08f575605193;54c8e6bb-08fb-4b24-b6f8-aca1f3afc983)
+DEBUG 04-25 20:48:07 [transformers_utils/repo_utils.py:243] 
+DEBUG 04-25 20:48:07 [transformers_utils/repo_utils.py:243] Entry Not Found for url: https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json.
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+DEBUG 04-25 20:48:17 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-25 20:48:17 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-25 20:48:17 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-25 20:48:17 [platforms/__init__.py:247] Automatically detected platform cuda.
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [v1/engine/core.py:1018] Waiting for init message from front-end.
+DEBUG 04-25 20:48:18 [v1/engine/utils.py:1158] HELLO from local core engine process 0.
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [v1/engine/core.py:1029] Received init message: EngineHandshakeMetadata(addresses=EngineZmqAddresses(inputs=['ipc:///tmp/4d8c3650-34c1-4a57-8433-02e342d56719'], outputs=['ipc:///tmp/e59abc3b-9370-4c96-8b26-fc7f2b6559b3'], coordinator_input=None, coordinator_output=None, frontend_stats_publish_address=None), parallel_config={})
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [v1/engine/core.py:826] Has DP Coordinator: False, stats publish address: None
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [plugins/__init__.py:44] Available plugins for group vllm.general_plugins:
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [plugins/__init__.py:46] - lora_filesystem_resolver -> vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [plugins/__init__.py:46] - lora_hf_hub_resolver -> vllm.plugins.lora_resolvers.hf_hub_resolver:register_hf_hub_resolver
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [plugins/__init__.py:49] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+(EngineCore pid=1921288) INFO 04-25 20:48:18 [v1/engine/core.py:105] Initializing a V1 LLM engine (v0.19.1) with config: model='Qwen/Qwen3.5-0.8B', speculative_config=None, tokenizer='Qwen/Qwen3.5-0.8B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=8192, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=Qwen/Qwen3.5-0.8B, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [16384], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': True, 'alignment_asserts': True, 'scalar_asserts': True, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 16, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [utils/import_utils.py:74] Loading module triton_kernels from /home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/third_party/triton_kernels/__init__.py.
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen2_moe.Qwen2MoeModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=1921288) DEBUG 04-25 20:48:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen3_next.Qwen3NextModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=1921288) `Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+(EngineCore pid=1921288) DEBUG 04-25 20:48:19 [tokenizers/registry.py:77] Loading CachedHfTokenizer for tokenizer_mode='hf'
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=2, num_reqs=2, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+Processed prompts: 100%|██████████████████████████████████████████████████████████████████████████████████████▉| 29999/30000 [1:27:55<00:00,  2.60it/s, est. speed input: 720.89 toks/s, output: 1294.49 toks/s](EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:02 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3888] Running batch with cudagraph_mode: FULL, batch_descriptor: BatchDescriptor(num_tokens=1, num_reqs=1, uniform=True, has_lora=False, num_active_loras=0), should_ubatch: False, num_tokens_across_dp: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/worker/gpu_model_runner.py:3909] ubatch_slices: None, ubatch_slices_padded: None
+(EngineCore pid=1931369) DEBUG 04-25 22:30:03 [v1/engine/core.py:1158] EngineCore waiting for work.
+Processed prompts: 100%|███████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [1:27:57<00:00,  5.68it/s, est. speed input: 720.72 toks/s, output: 1294.54 toks/s]
+2026-04-25 22:30:04.575 | INFO     | __main__:main:75 - Generated 30000 raw samples
+2026-04-25 22:30:04.702 | INFO     | sl.datasets.services:save_dataset:90 - Saved 30000 samples to data/demo/raw_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 22:30:04.702 | INFO     | __main__:main:83 - Applying filters...
+2026-04-25 22:30:05.181 | INFO     | __main__:main:85 - Filter pass rate: 7797/30000 (26.0%)
+2026-04-25 22:30:05.204 | INFO     | sl.datasets.services:save_dataset:90 - Saved 7797 samples to data/demo/filtered_dataset_capybara_qwen3.5-0.8b.jsonl
+2026-04-25 22:30:05.204 | SUCCESS  | __main__:main:96 - Dataset generation completed successfully!
+(EngineCore pid=1931369) DEBUG 04-25 22:30:05 [v1/engine/core.py:1170] EngineCore loop active.
+(EngineCore pid=1931369) INFO 04-25 22:30:05 [v1/engine/core.py:1210] Shutdown initiated (timeout=0)
+(EngineCore pid=1931369) INFO 04-25 22:30:05 [v1/engine/core.py:1233] Shutdown complete
+(EngineCore pid=1931369) DEBUG 04-25 22:30:05 [v1/engine/core.py:1104] EngineCore exiting.
+[rank0]:[W425 22:30:05.243540248 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+ERROR 04-25 22:30:05 [v1/engine/core_client.py:667] Engine core proc EngineCore died unexpectedly, shutting down client.
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ 

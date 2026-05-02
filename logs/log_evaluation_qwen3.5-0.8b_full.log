@@ -1,0 +1,179 @@
+(.venv) turing@turing-Predator-PH18-73:~/subliminal-learning$ python scripts/run_evaluation.py     --config_module=cfgs/preference_numbers/open_model_qwen3.5-0.8b.py     --cfg_var_name=animal_evaluation     --model_path=./data/demo/model_ft_capybara_full.json     --output_path=./data/demo/evaluation_results_full.json
+2026-04-26 13:31:47.647 | INFO     | __main__:main:71 - Loading configuration from cfgs/preference_numbers/open_model_qwen3.5-0.8b.py (variable: animal_evaluation)...
+2026-04-26 13:31:47.651 | INFO     | __main__:main:78 - Loading model from ./data/demo/model_ft_capybara_full.json...
+2026-04-26 13:31:47.651 | INFO     | __main__:main:82 - Loaded model: DesKate/qwen_3.5_0.8b-capybara_numbers_ft_full (type: open_source)
+2026-04-26 13:31:47.651 | INFO     | __main__:main:85 - Starting evaluation...
+DEBUG 04-26 13:31:48 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-26 13:31:48 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-26 13:31:48 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-26 13:31:48 [platforms/__init__.py:247] Automatically detected platform cuda.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/DesKate/qwen_3.5_0.8b-capybara_numbers_ft_full/revision/main "HTTP/1.1 200 OK"
+Fetching 8 files: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:00<00:00, 9554.22it/s]
+Download complete: : 0.00B [00:00, ?B/s]                                                                                                                                                  | 0/8 [00:00<?, ?it/s]
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/revision/main "HTTP/1.1 200 OK"
+Fetching 13 files: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 117512.83it/s]
+Download complete: : 0.00B [00:00, ?B/s]              INFO 04-26 13:31:51 [entrypoints/utils.py:233] non-default args: {'max_model_len': 8192, 'gpu_memory_utilization': 0.95, 'max_num_batched_tokens': 16384, 'max_num_seqs': 8, 'disable_log_stats': True, 'max_loras': 2, 'max_lora_rank': 128, 'model': 'Qwen/Qwen3.5-0.8B'}
+WARNING 04-26 13:31:51 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_N_GPUS
+WARNING 04-26 13:31:51 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_MAX_NUM_SEQS
+WARNING 04-26 13:31:51 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_MAX_LORA_RANK
+WARNING 04-26 13:31:51 [envs.py:1744] Unknown vLLM environment variable detected: VLLM_EXTRA_BODY
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO 04-26 13:31:53 [config/model.py:549] Resolved architecture: Qwen3_5ForConditionalGeneration
+INFO 04-26 13:31:53 [config/model.py:1678] Using max model len 8192
+INFO 04-26 13:31:53 [config/scheduler.py:238] Chunked prefill is enabled with max_num_batched_tokens=16384.
+Download complete: : 0.00B [00:01, ?B/s]
+`Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+INFO 04-26 13:31:53 [model_executor/models/config.py:281] Setting attention block size to 544 tokens to ensure that attention page size is >= mamba page size.
+INFO 04-26 13:31:53 [model_executor/models/config.py:312] Padding mamba page size by 2.64% to ensure that mamba page size and attention page size are exactly equal.
+INFO 04-26 13:31:53 [config/vllm.py:790] Asynchronous scheduling is enabled.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/video_preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/video_preprocessor_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/preprocessor_config.json "HTTP/1.1 200 OK"
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+DEBUG 04-26 13:32:14 [plugins/__init__.py:36] No plugins for group vllm.platform_plugins found.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:37] Checking if TPU platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:56] TPU platform is not available because: No module named 'libtpu'
+DEBUG 04-26 13:32:14 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:113] Checking if ROCm platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:127] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 04-26 13:32:14 [platforms/__init__.py:134] Checking if XPU platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:165] Checking if CPU platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:62] Checking if CUDA platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:85] Confirmed CUDA platform is available.
+DEBUG 04-26 13:32:14 [platforms/__init__.py:247] Automatically detected platform cuda.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [v1/engine/core.py:1018] Waiting for init message from front-end.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [v1/engine/core.py:1029] Received init message: EngineHandshakeMetadata(addresses=EngineZmqAddresses(inputs=['ipc:///tmp/4a25bc65-279d-4cf5-b00a-2400da2649e8'], outputs=['ipc:///tmp/ff0979f3-8382-4dec-abaf-3c73317d57e5'], coordinator_input=None, coordinator_output=None, frontend_stats_publish_address=None), parallel_config={})
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [v1/engine/core.py:826] Has DP Coordinator: False, stats publish address: None
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [plugins/__init__.py:44] Available plugins for group vllm.general_plugins:
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [plugins/__init__.py:46] - lora_filesystem_resolver -> vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [plugins/__init__.py:46] - lora_hf_hub_resolver -> vllm.plugins.lora_resolvers.hf_hub_resolver:register_hf_hub_resolver
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [plugins/__init__.py:49] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+(EngineCore pid=2634269) INFO 04-26 13:32:14 [v1/engine/core.py:105] Initializing a V1 LLM engine (v0.19.1) with config: model='Qwen/Qwen3.5-0.8B', speculative_config=None, tokenizer='Qwen/Qwen3.5-0.8B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=8192, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=Qwen/Qwen3.5-0.8B, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [16384], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': True, 'alignment_asserts': True, 'scalar_asserts': True, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 16, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [utils/import_utils.py:74] Loading module triton_kernels from /home/turing/subliminal-learning/.venv/lib/python3.12/site-packages/vllm/third_party/triton_kernels/__init__.py.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen2_moe.Qwen2MoeModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=2634269) DEBUG 04-26 13:32:14 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.qwen3_next.Qwen3NextModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=2634269) `Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:15 [tokenizers/registry.py:77] Loading CachedHfTokenizer for tokenizer_mode='hf'
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [distributed/parallel_state.py:1356] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://192.168.1.218:46949 backend=nccl
+(EngineCore pid=2634269) INFO 04-26 13:32:18 [distributed/parallel_state.py:1400] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://192.168.1.218:46949 backend=nccl
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [distributed/parallel_state.py:1459] Detected 1 nodes in the distributed environment
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+(EngineCore pid=2634269) INFO 04-26 13:32:18 [distributed/parallel_state.py:1716] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank N/A, EPLB rank N/A
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [v1/worker/gpu_worker.py:284] worker init memory snapshot: torch_peak=0.0GiB, free_memory=15.24GiB, total_memory=15.47GiB, cuda_memory=0.23GiB, torch_memory=0.0GiB, non_torch_memory=0.23GiB, timestamp=1777199538.9142275, auto_measure=True
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [v1/worker/gpu_worker.py:285] worker requested memory: 14.7GiB
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.deepseek_v2.DeepseekV2Model'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.deepseek_eagle3.DeepseekV2Eagle3Model'>: ['input_ids', 'positions', 'hidden_states', 'input_embeds']
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.llama.LlamaModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [compilation/decorators.py:215] Inferred dynamic dimensions for forward method of <class 'vllm.v1.spec_decode.ngram_proposer_gpu.NgramGPUKernel'>: ['num_tokens_no_spec', 'token_ids_gpu', 'combined_mask']
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [v1/sample/ops/topk_topp_sampler.py:57] FlashInfer top-p/top-k sampling is available but disabled by default. Set VLLM_USE_FLASHINFER_SAMPLER=1 to opt in after verifying accuracy for your workloads.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:18 [v1/sample/logits_processor/__init__.py:65] No logitsprocs plugins installed (group vllm.logits_processors).
+(EngineCore pid=2634269) DEBUG 04-26 13:32:19 [utils/torch_utils.py:119] OMP_NUM_THREADS is not set; defaulting Torch threads to 1.
+(EngineCore pid=2634269) DEBUG 04-26 13:32:19 [transformers_utils/repo_utils.py:243] File or repository not found in hf_hub_download: 404 Client Error. (Request ID: Root=1-69ede9b3-04057c4c026394d35b959c0d;0b5b02f7-91ab-4765-8b1e-247369c84a42)
+(EngineCore pid=2634269) DEBUG 04-26 13:32:19 [transformers_utils/repo_utils.py:243] 
+(EngineCore pid=2634269) DEBUG 04-26 13:32:19 [transformers_utils/repo_utils.py:243] Entry Not Found for url: https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/processor_config.json.
